@@ -76,7 +76,7 @@ Grant permissions when prompted.
 All required data is provided via the following Google Drive link:
 
 🔗 **Data Link:**
-[https://drive.google.com/drive/folders/1B7mBd8eucFr3igSlne_bwaVjgP-c-gl4?usp=sharing](https://drive.google.com/drive/folders/1iCYJwMGwTm0qipXoAdWibpsSS57RvF_q?usp=sharing)
+[https://drive.google.com/drive/folders/1B7mBd8eucFr3igSlne_bwaVjgP-c-gl4?usp=sharing](https://drive.google.com/drive/folders/1B7mBd8eucFr3igSlne_bwaVjgP-c-gl4?usp=sharing)
 
 This link contains:
 
