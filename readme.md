@@ -8,25 +8,32 @@ The project is intentionally built to run on **Google Colab** and works with dat
 
 ## ✨ What This Project Is About
 
-In a typical packaging assembly line, each unit must pass through a defined sequence of steps. This project captures and analyzes **three critical packaging states**:
+This is an **Assembly Line Packaging Analysis project** that works with **video-based production data**.
+
+In this project:
+
+* I provide a **packaging line video** that can be used for testing and analysis
+* Each video frame is **captured and labeled** using **Label Studio**
+* Labels represent critical packaging states in the assembly line
+
+The core focus is on tracking and validating **three key packaging stages**:
 
 1. **Empty** – container/unit before filling
 2. **Put** – product placed or filling in progress
 3. **Full** – container/unit completely filled and ready
 
-Using the provided dataset, the notebook processes assembly line events to **track, validate, and analyze these stages**, helping ensure packaging consistency and operational correctness.
+All required data (videos, frames, labels, and related files) are **already prepared and shared via a Drive link**.
 
 ---
 
 ## 🧠 What This Project Shows You
 
-* How packaging steps are captured and represented as structured data
-* How an assembly line can be analyzed step-by-step using Python
-* Validation of correct state transitions (Empty → Put → Full)
-* Identification of missing, incorrect, or incomplete packaging steps
-* A clean, reproducible **analysis workflow** suitable for real production data
-
-This makes the project useful for **manufacturing analytics, quality control, and process validation** use cases.
+* How an assembly line **video** can be converted into frame-level data
+* How each frame is **manually labeled** (Empty / Put / Full) using **Label Studio**
+* How labeled frames are processed programmatically
+* Validation of correct packaging state transitions
+* Detection of missing or incorrect packaging steps
+* A reproducible workflow for **video-based manufacturing analytics**
 
 ---
 
@@ -66,11 +73,25 @@ Grant permissions when prompted.
 
 ### 3️⃣ Download Data & Upload to Google Drive
 
-* I will provide you with a **data download link**
-* Download the dataset locally
-* Upload the full folder/files to your **Google Drive**
+All required data is provided via the following Google Drive link:
 
-Example path inside Colab:
+🔗 **Data Link:**
+[https://drive.google.com/drive/folders/1iCYJwMGwTm0qipXoAdWibpsSS57RvF_q?usp=sharing](https://drive.google.com/drive/folders/1iCYJwMGwTm0qipXoAdWibpsSS57RvF_q?usp=sharing)
+
+This link contains:
+
+* Raw assembly line video(s)
+* Extracted video frames
+* Frame-level labels created using **Label Studio**
+* Supporting metadata and files
+
+**Steps:**
+
+1. Download the entire folder from the link above
+2. Upload the folder to your **Google Drive**
+3. Keep the folder structure **exactly the same**
+
+Example Drive path:
 
 ```python
 data_path = '/content/drive/MyDrive/assembly_line_data'
@@ -78,8 +99,9 @@ data_path = '/content/drive/MyDrive/assembly_line_data'
 
 📌 **Important:**
 
-* Keep the folder structure unchanged
-* Do not rename files unless instructed
+* Do **not** rename files or folders
+* Do **not** modify internal structure
+* Upload everything **as-is**
 
 ---
 
